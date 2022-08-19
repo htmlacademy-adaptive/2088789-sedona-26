@@ -4,36 +4,37 @@
     <meta charset="utf-8" />
     <title>HTML Academy: Седона</title>
   </head>
-  <body class="page__body">
+  <body class="page">
     <!-- Шапка -->
     <header class="main-header">
       <img
-        src="img/htmlacademy.svg"
+        class="main-header__logo"
+        src="#"
         width="185"
         height="96"
         alt="Логотип Седоны."
       />
-      <button type="button" class="main-header__wrapper">
+      <button class="main-header__button" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
       <!-- Навигация и меню -->
       <nav class="main-nav">
-        <button type="reset" class="main-nav__button">
-          <img src="/" width="" height="" alt="Закрыть." />
-          <span class="visually-hidden">Закрыть меню</span>
+        <button class="main-nav__close-button">
+          <svg aria-hidden="true" />
+          <span class="visually-hidden">Закрыть меню.</span>
         </button>
         <ul class="nav-list">
           <li class="nav-list__item">
-            <a class="main-nav__link" href="/">Главная</a>
+            <a class="main-nav__link" href="#">Главная</a>
           </li>
           <li class="nav-list__item">
-            <a class="main-nav__link" href="/">Фото и видео</a>
+            <a class="main-nav__link" href="#">Фото и видео</a>
           </li>
           <li class="nav-list__item">
-            <a class="main-nav__link" href="/">Форма отзыва</a>
+            <a class="main-nav__link" href="#">Форма отзыва</a>
           </li>
           <li class="nav-list__item">
-            <a class="main-nav__link" href="/">HTMLAcademy</a>
+            <a class="main-nav__link" href="#">HTMLAcademy</a>
           </li>
         </ul>
       </nav>
@@ -42,15 +43,15 @@
       <!-- Hero -->
       <section class="hero">
         <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
-        <img class="hero-image" src="/" width="" height="" alt="" />
+        <img class="hero__image" src="#" width="" height="" alt="" />
       </section>
       <!-- Основной текст -->
       <section class="main-text">
-        <h3 class="main-text__title">
+        <h2 class="main-text__title">
           СЕДОНА — небольшой <br />
           городок в АРИЗОНЕ, <br />
           ЗАСЛУЖИвающий большего!
-        </h3>
+        </h2>
         <p class="main-text__subtitle">
           Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
         </p>
@@ -68,29 +69,29 @@
           </figcaption>
           <img
             class="advantages-item__photo"
-            src="/"
+            src="#"
             width=""
-            min-height=""
+            height=""
             alt="Городской пейзаж."
           />
         </figure>
         <!-- С иконками -->
         <ul class="advantages-list">
-          <li class="advantages-item-icons">
-            <h3 class="advantages-item-icons__title">Жилье</h3>
-            <p class="advantages-item-icons__subtitle">
+          <li class="advantages-list__item-icons">
+            <h3 class="advantages-list__title">Жилье</h3>
+            <p class="advantages-list__subtitle">
               Рекомендуем пожить в настоящем мотеле, все как в кино!
             </p>
           </li>
-          <li class="advantages-item-icons">
-            <h3 class="advantages-item-icons__title">ЕДА</h3>
-            <p class="advantages-item-icons__subtitle">
+          <li class="advantages-list__item-icons">
+            <h3 class="advantages-list__title">ЕДА</h3>
+            <p class="advantages-list__subtitle">
               Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!
             </p>
           </li>
-          <li class="advantages-item-icons">
-            <h3 class="advantages-item-icons__title">СУВЕНИРЫ</h3>
-            <p class="advantages-item-icons__subtitle">
+          <li class="advantages-list__item-icons">
+            <h3 class="advantages-list__title">СУВЕНИРЫ</h3>
+            <p class="advantages-list__subtitle">
               Не только китайского, но и местного производства!
             </p>
           </li>
@@ -99,37 +100,37 @@
         <figure class="advantages__figure-first">
           <figcaption class="advantages-item">
             <h3 class="advantages-item__special">ТАМ ЕСТЬ Мост дьявола</h3>
-            <span class="advantages-item__number-special">— №2 —</span>
+            <p class="advantages-item__number-special">— №2 —</p>
             <p class="advantages-item__subtitle-special">
               Да, по нему можно пройти! Если вы осмелитесь, конечно
             </p>
           </figcaption>
           <img
             class="advantages-item__photo"
-            src="/"
+            src="#"
             width=""
-            min-height=""
+            height=""
             alt="Красоты каньона."
           />
         </figure>
         <!-- С цифрами -->
         <li class="advantages-item-numbers">
           <h3 class="advantages-item-numbers__title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
-          <span class="advantages-item-numbers__number">— №3 —</span>
+          <p class="advantages-item-numbers__number">— №3 —</p>
           <p class="advantages-item-numbers__subtitle">
             ВСЕ интересные места находятся очень близко
           </p>
         </li>
         <li class="advantages-item-numbers">
           <h3 class="advantages-item-numbers__title">КРАСИВАЯ ДОРОГА</h3>
-          <span class="advantages-item-numbers__number">— №4 —</span>
+          <p class="advantages-item-numbers__number">— №4 —</p>
           <p class="advantages-item-numbers__subtitle">
             ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!
           </p>
         </li>
         <li class="advantages-item-numbers">
           <h3 class="advantages-item-numbers__title">МАЛО ТУРИСТОВ</h3>
-          <span class="advantages-item-numbers__number">— №5 —</span>
+          <p class="advantages-item-numbers__number">— №5 —</p>
           <p class="advantages-item-numbers__subtitle">
             Большинство едет в гранд каньон и толпится там
           </p>
@@ -137,12 +138,12 @@
       </ol>
       <!-- Поиск гостиницы -->
       <section class="search-hotel">
-        <h3 class="search-hotel__title">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
+        <h2 class="search-hotel__title">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
         <p class="search-hotel__subtitle">
           Укажите предполагаемые даты поездки, и мы покажем вам лучшие
           предложения гостиниц в седоне
         </p>
-        <button type="button" class="search-hotel__button">
+        <button class="search-hotel__button" type="button">
           Найти Гостиницу
         </button>
       </section>
@@ -151,21 +152,32 @@
     </main>
     <!-- Футер -->
     <footer class="page-footer">
-      <h3 class="page-footer__hashtag">#visitSEDONA</h3>
+      <a class="page-footer__hashtag">#visitSEDONA</a>
       <!-- Социальные сети -->
       <ul class="social-media-list">
-        <li class="social-media-list__social-media-item">
-          <a class="social-media-item__link" href=""></a>
+        <li class="social-media-list__item">
+          <a class="social-media-list__link" href="#" title="Наш ВК."></a>
         </li>
-        <li class="social-media-list__social-media-item">
-          <a class="social-media-item__link" href=""></a>
+        <li class="ssocial-media-list__item">
+          <a class="social-media-list__link" href="#" title="Наш Телегам."></a>
         </li>
-        <li class="social-media-list__social-media-item">
-          <a class="social-media-item__link" href=""></a>
+        <li class="social-media-list__item">
+          <a
+            class="social-media-list__link"
+            href="#"
+            title="Наш Ютуб канал."
+          ></a>
         </li>
       </ul>
       <!-- Логотип -->
-      <span class="page-footer__text" href="/">Разработано в </span>
+      <a class="page-footer__text" href="#">Разработано в </a>
+      <img
+        class="page-footer__logo"
+        src="img/htmlacademy.svg"
+        width="27"
+        height="34"
+        alt="Логотип Академии."
+      />
     </footer>
   </body>
 </html>
