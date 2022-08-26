@@ -7,17 +7,23 @@
     "autoprefixer": "10.4.0",
     "browser-sync": "2.27.7",
     "gulp": "4.0.2",
-    "gulp-dart-sass": "^1.0.2",
+    "gulp-dart-sass": "1.0.2",
+    "gulp-html-bemlinter": "2.1.1",
+    "gulp-lintspaces": "1.0.1",
     "gulp-plumber": "1.2.1",
     "gulp-postcss": "9.0.1",
+    "gulp-posthtml": "3.0.5",
+    "gulp-stylelint": "13.0.0",
+    "pineglade-w3c": "1.0.3",
     "postcss": "8.3.11",
+    "pre-commit": "1.2.2",
     "stylelint": "13.13.1",
     "stylelint-config-htmlacademy": "0.1.11"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
-    "lint": "npm run editorconfig && npm run stylelint",
+    "lint": "npm run editorconfig && npm run stylelint && gulp markup",
     "build": "gulp styles",
     "start": "gulp"
   },
@@ -39,5 +45,6 @@
   "engines": {
     "node": "^16"
   },
-  "type": "module"
+  "type": "module",
+  "pre-commit": "lint"
 }
