@@ -1,18 +1,18 @@
-.advantages-list {
+.search-hotel {
   background-color: #ffffff;
+  font-family: "PT Sans", sans-serif;
 }
 
-.advantages-list__title {
+.search-hotel__lead-text {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 26px;
-  text-transform: uppercase;
   color: #000000;
 }
 
-.advantages-list__subtitle {
+.search-hotel__description {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -21,11 +21,13 @@
   color: #333333;
 }
 
-.advantages-list__number {
+.search-hotel__button {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-  color: #333333;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #81b3d2;
+  border: 0;
 }
