@@ -1,0 +1,41 @@
+// Навигация
+
+@media (min-width: 768px) {
+  .main-nav {
+    height: 56px;
+  }
+
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-nav__menu-button {
+    display: none;
+  }
+
+  .main-nav__link {
+    color: #000000;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-nav {
+    height: 56px;
+  }
+
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-nav__menu-button {
+    display: none;
+  }
+
+  .main-nav__link {
+    color: #000000;
+    background-color: #ffffff;
+  }
+}

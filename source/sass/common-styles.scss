@@ -1,0 +1,24 @@
+body {
+  @font-face {
+    font-family: "PT Sans", sans-serif;
+    src: url("../fonts/ptsans.woff"), url("../fonts/ptsans.woff2");
+    font-style: normal;
+  }
+
+  // Bold
+  @font-face {
+    font-family: "PT Sans", sans-serif;
+    src: url("../fonts/ptsansbold.woff"), url("../fonts/ptsansbold.woff2");
+    font-style: normal;
+  }
+
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+
+  min-width: 320px;
+
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
