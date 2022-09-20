@@ -23,6 +23,12 @@
   // Основная часть страницы
   .advantages-large {
     display: flex;
+    flex-direction: column;
+    min-width: 100%;
+  }
+
+  .advantages-numbered {
+    min-width: 33%;
   }
 
   .advantages-description {
@@ -72,6 +78,12 @@
   // Основная часть страницы
   .advantages-large {
     display: flex;
+    flex-direction: column;
+    min-width: 100%;
+  }
+
+  .advantages-numbered {
+    min-width: 33%;
   }
 
   .advantages-description {
