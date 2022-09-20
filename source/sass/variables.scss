@@ -32,8 +32,11 @@
   }
 
   .advantages-description {
+    padding: 0;
+
     display: flex;
     background-color: #ffffff;
+    min-width: 33%;
   }
 
   .advantages-list {
@@ -89,6 +92,7 @@
   .advantages-description {
     display: flex;
     background-color: #ffffff;
+    min-width: 33%;
   }
 
   .advantages-list {
