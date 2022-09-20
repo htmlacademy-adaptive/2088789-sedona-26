@@ -27,13 +27,15 @@
 
   .advantages-description {
     display: flex;
+    background-color: #ffffff;
   }
 
-  // .advantages-list {
-  //   display: flex;
-  //   flex-direction: row;
-  //   flex-wrap: wrap;
-  // }
+  .advantages-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
 
   .reverse {
     justify-content: flex-end;
@@ -74,13 +76,19 @@
 
   .advantages-description {
     display: flex;
+    background-color: #ffffff;
   }
 
-  // .advantages-list {
-  //   display: flex;
-  //   flex-direction: row;
-  //   flex-wrap: wrap;
-  // }
+  .advantages-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+
+  .advantages-list__item {
+    min-width: 100%;
+  }
 
   .reverse {
     justify-content: flex-end;
