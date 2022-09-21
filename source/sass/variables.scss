@@ -1,0 +1,119 @@
+// Навигация
+
+@media (min-width: 768px) {
+  // Навигация
+  .main-nav {
+    height: 56px;
+  }
+
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-nav__menu-button {
+    display: none;
+  }
+
+  .main-nav__link {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  // Основная часть страницы
+  .advantages-large {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+  }
+
+  .advantages-numbered {
+    min-width: 33%;
+  }
+
+  .advantages-description {
+    padding: 0;
+
+    display: flex;
+    background-color: #ffffff;
+    min-width: 33%;
+  }
+
+  .advantages-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+
+  .reverse {
+    justify-content: flex-end;
+  }
+
+  // Футер
+  .page-footer {
+    min-width: 120px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1200px) {
+  // Навигация
+  .main-nav {
+    height: 56px;
+  }
+
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-nav__menu-button {
+    display: none;
+  }
+
+  .main-nav__link {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  // Основная часть страницы
+  .advantages-large {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+  }
+
+  .advantages-numbered {
+    min-width: 33%;
+  }
+
+  .advantages-description {
+    display: flex;
+    background-color: #ffffff;
+    min-width: 33%;
+  }
+
+  .advantages-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+
+  .advantages-list__item {
+    min-width: 100%;
+  }
+
+  .reverse {
+    justify-content: flex-end;
+  }
+
+  // Футер
+  .page-footer {
+    min-width: 120px;
+    display: flex;
+    justify-content: space-around;
+  }
+}

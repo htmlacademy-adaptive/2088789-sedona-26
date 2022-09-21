@@ -1,5 +1,4 @@
 .page-footer {
-  background-color: #ffffff;
   font-family: "PT Sans", sans-serif;
 }
 
@@ -10,6 +9,10 @@
   font-size: 14px;
   line-height: 21px;
   color: #000000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-footer__hashtag {

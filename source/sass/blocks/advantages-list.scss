@@ -1,5 +1,14 @@
 .advantages-list {
-  background-color: #ffffff;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+
+  min-width: 100%;
+}
+
+.advantages-list__item {
+  background-color: #81b3d2;
 }
 
 .advantages-list__title {
@@ -9,7 +18,7 @@
   font-size: 18px;
   line-height: 26px;
   text-transform: uppercase;
-  color: #000000;
+  color: #ffffff;
 }
 
 .advantages-list__subtitle {
@@ -18,7 +27,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #333333;
+  color: #ffffff;
 }
 
 .advantages-list__number {
@@ -27,5 +36,5 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #333333;
+  color: #ffffff;
 }
